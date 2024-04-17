@@ -1,0 +1,47 @@
+/* HEADER */
+.navbar {
+    margin: 10px;
+    background-color: transparent !important;
+    border: n
+}
+
+.btn-custom {
+    color: white;
+    background-color: #0875E2;
+    border-color: #0875E2;
+}
+
+.btn-custom:hover {
+    background-color: #112943;
+    border-color: #112943;
+    color: white;
+}
+
+
+/* JUMBOTRON */
+
+#scrollToNext {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin: 100px 50px 300px 50px;
+}
+
+h1 {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotron .col-md-4 {
+    padding: 0;
+}
+
+.jumbotron .col-md-4 img {
+    width: 100%;
+}
