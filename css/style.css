@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 /* HEADER */
 .navbar {
     margin: 10px;
@@ -46,11 +50,11 @@ h1 {
 }
 
 #jumbotron2 h1 {
-    color: #112943;
+    color: #803290;;
 }
 
 #jumbotron2 p {
-    color: #112943;
+    color: #803290;
     width: 90%;
 }
 
@@ -76,13 +80,65 @@ h1 {
     width: 90%;
 }
 
+#jumbotron5 {
+    margin-bottom: 100px;
+}
+
 #jumbotron5 h1 {
-    color: #803290;
+    color: #112943;
 }
 
 #jumbotron5 p {
-    color: #803290;
+    color: #112943;
     width: 90%;
+}
+
+/* background color testing area */
+
+
+/* CAROUSEL REVIEWS */
+.review-title {
+    text-align: center;
+}
+
+.review-title h1, .review-title h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+.review-title h1 {
+    font-size: 50px;
+    font-weight: bold; 
+    margin: 5px;
+}
+
+.review-title h3 {
+    font-size: 16px; 
+    font-weight: 500; 
+    margin-bottom: 20px;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity .6s ease-in-out;
+    opacity: 0;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s;
+}
+
+.reviewSection {
+    margin: 30px;
+    margin-bottom: 200px;
 }
 
 
