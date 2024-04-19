@@ -21,6 +21,43 @@ body {
     color: white;
 }
 
+/* BACKGROUND IMAGES */
+
+.herobackground {
+    background-image: url('/Images/herobackgroundstyle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+
+.background1 {
+    background-image: url("/Images/backgroundblue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 500px 0;
+}
+
+.background2 {
+    background-image: url("/Images/backgroundpurple.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 500px 0;
+}
+
+.background3 {
+    background-image: url('/Images/herobackgroundstyle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.background4 {
+    background-image: url("/Images/backgroundstyle.png");
+    background-color: #DAE8F8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* JUMBOTRON */
 
@@ -29,9 +66,9 @@ body {
     color: #A02E7E;
 }
 
-.jumbotron {
+/* .jumbotron {
     margin: 100px 50px 300px 50px;
-}
+} */
 
 h1 {
     font-size: 30px !important;
@@ -50,11 +87,11 @@ h1 {
 }
 
 #jumbotron2 h1 {
-    color: #803290;;
+    color: #112943;;
 }
 
 #jumbotron2 p {
-    color: #803290;
+    color: #112943;
     width: 90%;
 }
 
@@ -62,8 +99,12 @@ h1 {
     margin-bottom: 100px; 
 }
 
+#jumbotron3 h1 {
+    color: #803290;
+}
+
 #jumbotron3 p {
-    color: #112943;
+    color: #803290;
     width: 90%;
 }
 
@@ -99,6 +140,7 @@ h1 {
 /* CAROUSEL REVIEWS */
 .review-title {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .review-title h1, .review-title h3 {
@@ -145,13 +187,14 @@ h1 {
 /* FOOTER */
 
 .footer {
-    background-color: #DAE8F8;
-    margin: 0;
+/*     background-color: #DAE8F8;
+ */    margin: 0;
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 200px;
 }
 
 .unlock {
