@@ -2,6 +2,13 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.responsive-gif {
+    width: 40%;
+    height: auto;
+    max-width: 400px;
+    margin-top: 0;
+}
+
 /* HEADER */
 .navbar {
     margin: 10px;
@@ -94,6 +101,19 @@ h1 {
     color: #112943;
     width: 90%;
 }
+
+.title-with-image {
+    display: flex;
+    align-items: center; /* Aligns the items vertically center */
+    justify-content: flex-start; /* Puts maximum space between the elements */
+}
+
+.align-right-img {
+    max-width: 120px; /* Adjust the size of the image as necessary */
+    height: auto; /* Maintains the aspect ratio */
+    margin-left: 0px; /* Adds some space between the h1 and the image */
+}
+
 
 #jumbotron2, #jumbotron3 {
     margin-bottom: 100px; 
