@@ -31,7 +31,7 @@ body {
 /* BACKGROUND IMAGES */
 
 .herobackground {
-    background-image: url('/Images/herobackgroundstyle.png');
+    background-image: url('Images/herobackgroundstyle.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -39,28 +39,28 @@ body {
 
 
 .background1 {
-    background-image: url("/Images/backgroundblue.png");
+    background-image: url("Images/backgroundblue.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 500px 0;
 }
 
 .background2 {
-    background-image: url("/Images/backgroundpurple.png");
+    background-image: url("Images/backgroundpurple.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 500px 0;
 }
 
 .background3 {
-    background-image: url('/Images/herobackgroundstyle.png');
+    background-image: url('Images/herobackgroundstyle.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
 }
 
 .background4 {
-    background-image: url("/Images/backgroundstyle.png");
+    background-image: url("Images/backgroundstyle.png");
     background-color: #DAE8F8;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,10 +72,6 @@ body {
     cursor: pointer;
     color: #A02E7E;
 }
-
-/* .jumbotron {
-    margin: 100px 50px 300px 50px;
-} */
 
 h1 {
     font-size: 30px !important;
@@ -104,14 +100,14 @@ h1 {
 
 .title-with-image {
     display: flex;
-    align-items: center; /* Aligns the items vertically center */
-    justify-content: flex-start; /* Puts maximum space between the elements */
+    align-items: center; 
+    justify-content: flex-start; 
 }
 
 .align-right-img {
-    max-width: 120px; /* Adjust the size of the image as necessary */
-    height: auto; /* Maintains the aspect ratio */
-    margin-left: 0px; /* Adds some space between the h1 and the image */
+    max-width: 120px; 
+    height: auto; 
+    margin-left: 0px; 
 }
 
 
@@ -207,8 +203,7 @@ h1 {
 /* FOOTER */
 
 .footer {
-/*     background-color: #DAE8F8;
- */    margin: 0;
+    margin: 0;
     padding: 50px;
     display: flex;
     flex-direction: column;
