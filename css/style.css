@@ -31,7 +31,7 @@ body {
 /* BACKGROUND IMAGES */
 
 .herobackground {
-    background-image: url('Images/herobackgroundstyle.png');
+    background-image: url('/Images/herobackgroundstyle.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -75,8 +75,9 @@ body {
 
 h1 {
     font-size: 30px !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
 }
+
 
 
 .homepageMockup, .viewTicket {
@@ -204,16 +205,22 @@ h1 {
 
 .footer {
     margin: 0;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 200px;
+}
+
+.footerlogo {
+    max-width: 30%;
+    height: auto;
 }
 
 .unlock {
     text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
 .appStore {
@@ -221,16 +228,16 @@ h1 {
     width: 30%;
     max-width: 200px;
     cursor: pointer;
-    margin: 30px;
+    margin-top: 50px;
 }
 
 .partneredicons {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .partneredicons img {
     height: auto;
     width: 40%;
-    margin: 20px;
 }
